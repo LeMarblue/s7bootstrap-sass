@@ -1,68 +1,146 @@
-$baseColor:hsl(216, 53%, 9%);
-
+$baseColor: hsl(216, 53%, 9%);
+$secondColor: hsl(217, 28%, 15%);
+$trheeColor: hsl(219, 30%, 18%);
 
 .bgcolor {
-    background-color:$baseColor;
+  background-color: $baseColor;
 }
 
-.text-color{
-    color: hsl(0, 0%, 100%);
-    font-family: open sans;
-    font-size: 14px;
-    height: 400px;
-    div.relative {
-        position: relative;
-        width: 400px;
-        height: 200px;
-        border: 3px solid #73AD21;
-      } 
+.secondcolor {
+  background-color: $secondColor;
+}
+.trheecolor {
+  background-color: $trheeColor;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-left {
+  text-align: right;
+}
+
+.form-description {
+  background-color: #202a3c;
+  padding: 20px 0px 0px;
+  min-height: 100px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  box-shadow: 10px 10px 0px 0px rgba(0, 0, 0, 0.3);
+}
+
+
+.form-data {
+  background-color: #202a3c;
+  padding: 20px;
+  min-height: 100px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  box-shadow: 10px 10px 0px 0px rgba(0, 0, 0, 0.3);
+
+  div {
+      padding: 10px 0px;
+  }
+
+  button {
+      width: 100%;
+  }
+}
+
+.button-color {
+  background-color: #4FC4D5;
+}
+
+.logo {
+  padding: 60px 80px;
+}
+
+.info {
+  padding: 10px 80px;
+}
+
+.phonepad{
+    padding: 0px 20px;
 
 }
 
-.imageslogo{
-    width: 150px;
-    height: 50px;
-    margin: 150px 0px 0px 100px;
+.aboutpad{
+    padding: 0px 8px 0px 60px;
 
 }
 
-.ubicationcard{
-    background-color: rgb(27, 35, 48);
-    color: hsl(0, 0%, 100%);
-    height: 250px;
-    box-shadow: 7px 7px rgb(10, 18, 31);
+.contactUs{
+    padding: 0px;
 
-     div.absolute {
-        position: absolute;
-        top: -30px;
-        left:170px;
-        width: 50px;
-        height: 100px;
-     }
-   
+}
 
-    .bottom{
-        display: inline-block;
+.socialicon{
+    padding: 0px;
+}
+
+.footer{
+a:link,a:visited{
+    color: white; 
+
+}
+}
+
+.iconsocialnetworks{
+    height: 30px;
+    width:30px ;
+
+}
+
+
+@media (max-width: 768px) {
+
+    .phonepad{
+        padding: 0px 15px 25px;
+       
     }
 
-    .locationmargin{
-       float: left;
-       margin: 180px 5px 2px 500px  ;
+    .aboutpad{
+        padding: 0px 15px 10px;
+  
+    
     }
 
-    .imagesmargin{
-        width: 2px;
-        height: 2px;
-        float: left;
-   }  
-}  
+    .info {
+        padding: 0px 15px 15px;
+      }
+      
+      .contactUs{
+        padding: 0px 15px 15px;
+    
+    
+    }
 
-.list{
-     list-style: none;
- }
+    .socialicon{
+        padding: 0px;
+       margin: 0px 0px 0px 80px;
+       
+    }
+    .iconsocialnetworks{
+        height: 18px;
+        width:13px ;
+       
+       }
+  
+}
 
- .marginboxlorem {
-     margin: 180px 50px 50px 150px;
-     text-align: justify;
- }
- 
+.text-color {
+  color: hsl(0, 0%, 100%);
+  font-family: open sans;
+  font-size: 14px;
+}
+
+.list {
+  list-style: none;
+}
+
+
