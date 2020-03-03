@@ -1,0 +1,17 @@
+$darckblue: hsl(217, 28%, 15%);
+$White: hsl(0, 0%, 100%);
+
+*{
+    background-color: $darckblue;
+    
+}
+p{
+    color: $White;
+    font-size: 14px;
+}
+p.letra-grande{
+    padding-top: 30px;
+    font-size: 35px;
+    
+    font-weight: 400,700;
+}
