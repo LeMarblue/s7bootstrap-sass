@@ -1,9 +1,23 @@
 
+
 $darckblue: hsl(217, 28%, 15%);
 $White: hsl(0, 0%, 100%);
 $baseColor: hsl(216, 53%, 9%);
 $secondColor: hsl(217, 28%, 15%);
 $trheeColor: hsl(219, 30%, 18%);
+
+.img-features {
+ height: 75.25px;
+}
+
+.card-profile {
+ width: 30vw;
+}
+.img-profile {
+  width: 30px;
+  height: auto;
+}
+
 
 *{
     background-color: $darckblue;
@@ -162,6 +176,7 @@ a:link,a:visited{
 .list {
   list-style: none;
 }
+
 
 
 
