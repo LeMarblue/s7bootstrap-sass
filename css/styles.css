@@ -1,3 +1,18 @@
+
+* {
+  background-color: #1c2431;
+}
+
+p {
+  color: white;
+  font-size: 14px;
+}
+
+p.letra-grande {
+  padding-top: 30px;
+  font-size: 35px;
+  font-weight: 400,700;
+
 .bgcolor {
   background-color: #0b1523;
 }
@@ -118,5 +133,6 @@
 
 .list {
   list-style: none;
+
 }
 /*# sourceMappingURL=styles.css.map */

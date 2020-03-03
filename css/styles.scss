@@ -1,6 +1,26 @@
+
+$darckblue: hsl(217, 28%, 15%);
+$White: hsl(0, 0%, 100%);
 $baseColor: hsl(216, 53%, 9%);
 $secondColor: hsl(217, 28%, 15%);
 $trheeColor: hsl(219, 30%, 18%);
+
+*{
+    background-color: $darckblue;
+    
+}
+p{
+    color: $White;
+    font-size: 14px;
+}
+p.letra-grande{
+    padding-top: 30px;
+    font-size: 35px;
+    
+    font-weight: 400,700;
+}
+
+
 
 .bgcolor {
   background-color: $baseColor;
@@ -142,5 +162,6 @@ a:link,a:visited{
 .list {
   list-style: none;
 }
+
 
 
